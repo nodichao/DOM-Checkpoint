@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+ 
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(73, 72, 72);
+    z-index: 2;
+}
+
+.main{
+    margin-top: 200px;
+}
+.soinsArticle,h3,.navigation,.logo,.liens_nav{
+    padding: 0 5%;
+    position: relative;
+
+}
+
+.prix{
+    width: 30%;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+}
+.quit{
+    position: absolute;
+    right: 0;
+    color: red;
+    cursor: pointer;
+}
+.interactions{
+    display: flex;
+    justify-content: space-between;
+}
+.interactions i{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Times New Roman', serif;
+    text-align : center
+}
+.logo img{
+    height: 100px;
+}
+
+.liens_nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+.liens_nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.liens_nav ul{
+    padding-top: 30px;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nousContacter{
+    padding: 0 15%;
+}
+
+.add,.minus{
+    border-radius: 10px;
+}
+.recap{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+}
+.card{
+    margin: 0 auto;
+}
+
+
+.apropos{
+    margin: 50px auto;
+}
+.apropos h2,.nousContacter h2{
+    text-align: center;
+}
+
+.nousContacter form{
+    background-color: rgb(73, 72, 72);
+    
+}
+
+.nousContacter form{
+    padding-left: 100px;
+}
+
+form label{
+    color: white;
+}
+
+.inner_apropos{
+   display: flex;
+   justify-content: space-around;
+}
+
+.apropos2{
+    width: 60%;
+    padding-top: 25px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: rgb(73, 72, 72);
+    color: white;
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 25px;
+}
+.soinsArticle,.habillementArticle,.nourritureArticle{
+    position: relative;
+}
+
